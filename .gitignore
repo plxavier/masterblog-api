@@ -1,0 +1,215 @@
+# ========================================
+# macOS
+# ========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+*.swp
+*.swo
+
+# ========================================
+# Python
+# ========================================
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+*.manifest
+*.spec
+
+# ========================================
+# Virtual Environment
+# ========================================
+venv/
+.venv/
+ENV/
+env/
+.env/
+virtualenv/
+pyenv/
+.venv/
+venv.bak/
+pythonenv*
+
+# ========================================
+# Environment Variables & Secrets
+# ========================================
+.env
+.env.local
+.env.*.local
+*.env
+.flaskenv
+
+# ========================================
+# IDE / Editor
+# ========================================
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# VS Code
+.vscode/
+*.code-workspace
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+*.un~
+*.orig
+
+# ========================================
+# Data Files (User-generated content)
+# ========================================
+# Backend data
+posts.json
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ========================================
+# Keep Templates and Examples
+# ========================================
+!posts_template.json
+!*.example
+!*.sample
+
+# ========================================
+# Logs
+# ========================================
+*.log
+logs/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# ========================================
+# Testing
+# ========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+*.cover
+.hypothesis/
+pytest-debug.log
+
+# ========================================
+# Flask
+# ========================================
+instance/
+.webassets-cache
+.flaskenv
+*.pyc
+
+# ========================================
+# Docker
+# ========================================
+*.dockerignore
+.docker/
+Dockerfile
+docker-compose*.yml
+
+# ========================================
+# OS / System
+# ========================================
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+*.tmp
+*.temp
+
+# ========================================
+# Backend Specific
+# ========================================
+# Backup files
+*.bak
+*.backup
+*.old
+
+# ========================================
+# Frontend Specific
+# ========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+*.min.js
+*.min.css
+*.map
+
+# ========================================
+# Jupyter Notebooks
+# ========================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ========================================
+# Backup & Temp Files
+# ========================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+
+# ========================================
+# Project Specific
+# ========================================
+# If you use any API keys or tokens
+*.key
+*.pem
+*.cert
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff (if any)
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask migrations (if any)
+migrations/
