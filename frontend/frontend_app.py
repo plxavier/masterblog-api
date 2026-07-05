@@ -9,8 +9,8 @@ try:
                 static_folder=os.path.join(BASE_DIR, 'static'),
                 template_folder=os.path.join(BASE_DIR, 'templates'))
 
-    print("✅ Flask application created successfully")
-    print(f"📁 Static folder: {os.path.join(BASE_DIR, 'static')}")
+    print("Flask application created successfully")
+    print(f"Static folder: {os.path.join(BASE_DIR, 'static')}")
 except Exception as error:
     print(f"Error creating Flask application: {error}")
     sys.exit(1)
@@ -51,12 +51,12 @@ def debug_static():
 if __name__ == '__main__':
     try:
         print("\n" + "=" * 50)
-        print("🚀 Starting Frontend Server...")
-        print("📍 Running on http://127.0.0.1:5001")
+        print("Starting Frontend Server...")
+        print("Running on http://127.0.0.1:5001")
         print("=" * 50 + "\n")
         app.run(host="0.0.0.0", port=5001, debug=True)
     except KeyboardInterrupt:
-        print("\n👋 Server stopped by user.")
+        print("\nServer stopped by user.")
     except Exception as error:
         print(f"Error starting server: {error}")
         sys.exit(1)
