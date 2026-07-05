@@ -398,7 +398,7 @@ try:
     )
     app.register_blueprint(swagger_ui_blueprint, url_prefix=SWAGGER_URL)
     logger.info("Swagger UI configured successfully")
-    print("📚 Swagger UI available at: http://127.0.0.1:5002/api/docs")
+    print("Swagger UI available at: http://127.0.0.1:5002/api/docs")
 except Exception as error:
     logger.error(f"Error configuring Swagger UI: {error}")
 
