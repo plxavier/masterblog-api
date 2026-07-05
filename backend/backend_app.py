@@ -382,7 +382,7 @@ try:
     # Swagger UI Configuration
     SWAGGER_URL = "/api/docs"
 
-    # ✅ Point to root static folder (outside backend)
+    #Point to root static folder (outside backend)
     API_URL = "/static/masterblog.json"
 
     swagger_ui_blueprint = get_swaggerui_blueprint(
