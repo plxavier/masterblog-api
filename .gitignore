@@ -186,6 +186,9 @@ yarn.lock
 *.pem
 *.cert
 
+#not not to track
+!masterblog.json
+
 # Coverage reports
 htmlcov/
 .tox/
